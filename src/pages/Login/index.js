@@ -30,7 +30,7 @@ const Login = () => {
                     onFinish={onFinish}>
                     <Form.Item
                         // label="Password"
-                        name="tel" // 指定校验名
+                        name="mobile" // 指定校验名
                         rules={[   // 校验规则
                             {
                                 required: true,     // 必填
