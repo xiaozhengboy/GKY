@@ -6,11 +6,11 @@ import { createBrowserRouter } from 'react-router-dom'
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <Layout></Layout>
+        element: <Login></Login>
     },
     {
         path: '/login',
-        element: <Login></Login>
+        element: <Layout></Layout>
     }
 ])
 
